@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fbffcd;
+    overflow-y: hidden;
+}
+
+.calc {
+    width: 450px;
+    height: 470px;
+    border-radius: 10px;
+    background-color: #1c5560;
+}
+
+
+.input, .inputCorrect, .inputIncorrect {
+    outline: none;
+    border: none;
+    width: 450px;
+    height: 120px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    font-size: 5rem;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.input::placeholder {
+    font-size: 45px;
+}
+
+.inputCorrect::placeholder {
+    font-size: 45px;
+    color: green;
+}
+
+.inputIncorrect::placeholder {
+    font-size: 45px;
+    color: red;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(5, 90px);
+    grid-template-columns: repeat(4, 93px);
+    margin-left: 60px;
+}
