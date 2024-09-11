@@ -5,10 +5,10 @@
 
 Servo myServo;
 
-const char* ssid = "brisa-3647547";
-const char* password = "cbcdrohk";
-const char* passwordEndpoint = "http://192.168.0.10:3333/password";
-const char* deleteEndpoint = "http://192.168.0.10:3333/password/"; 
+const char* ssid = "brisa-3648202";
+const char* password = "zlcvwjxv";
+const char* passwordEndpoint = "http://192.168.0.9:3333/password";
+const char* deleteEndpoint = "http://192.168.0.9:3333/password/"; 
 
 const int ledPinVerde = 18; 
 const int ledPinVermelho = 12; 

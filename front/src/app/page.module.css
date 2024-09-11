@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fbffcd;
+    background-color: gray;
     overflow-y: hidden;
 }
 
@@ -11,7 +11,7 @@
     width: 450px;
     height: 470px;
     border-radius: 10px;
-    background-color: #1c5560;
+    background-color: black;
 }
 
 
